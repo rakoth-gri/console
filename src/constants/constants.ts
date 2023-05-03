@@ -1,4 +1,5 @@
 import { routesEnum, ILink } from "../types";
+import { CSSProperties } from "react";
 
 export const MENU_LINKS: ILink[] = [
 	{
@@ -15,5 +16,5 @@ export const MENU_LINKS: ILink[] = [
 	},
 ];
 
-export const DEL_ICON = { position: "absolute", zIndex: 8, top: "25px", right: "25px" };
-export const BG_NONE = { background: "transparent" };
+export const DEL_ICON: CSSProperties = { position: "absolute", zIndex: 8, top: "25px", right: "25px" };
+export const BG_NONE: CSSProperties = { background: "transparent" };
